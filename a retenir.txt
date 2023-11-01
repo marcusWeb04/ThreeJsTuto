@@ -1,0 +1,11 @@
+// on créer une classe
+const scene = new THREE.Scene();
+
+// on créer une camera
+const camera = new THREE.PerspectiveCamera(70, iw/ih);
+
+// on créer notre rendu
+const renderer = new THREE.WebGLRenderer({canvas});
+
+// on affiche notre rendu
+renderer.render(scene,camera);
