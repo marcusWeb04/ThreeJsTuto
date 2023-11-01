@@ -1,0 +1,13 @@
+{
+  "name": "three.js-fomation",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0"
+  },
+  "dependencies": {
+    "gltfloader": "github:codeurdenuit/GLTFLoader",
+    "three": "^0.158.0"
+  }
+}
